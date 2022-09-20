@@ -1,0 +1,149 @@
+<html>
+<head>
+<title>TestNG:  Default test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Default test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>14/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Tue Sep 20 17:14:26 IST 2022</td>
+</tr>
+<tr><td>Total time:</td><td>12 seconds (12616 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='restapi.TC007_POST.createuser()'><b>createuser</b><br>Test class: restapi.TC007_POST</td>
+<td></td>
+<td>4</td>
+<td>restapi.TC007_POST@aa12dd</td></tr>
+<tr>
+<td title='restapi.TC0010_DELETE.delete_user()'><b>delete_user</b><br>Test class: restapi.TC0010_DELETE</td>
+<td></td>
+<td>0</td>
+<td>restapi.TC0010_DELETE@729b1e</td></tr>
+<tr>
+<td title='restapi.TC004_GET.getlist()'><b>getlist</b><br>Test class: restapi.TC004_GET</td>
+<td></td>
+<td>0</td>
+<td>restapi.TC004_GET@144fc21</td></tr>
+<tr>
+<td title='restapi.TC001_GET.getlistuser()'><b>getlistuser</b><br>Test class: restapi.TC001_GET</td>
+<td></td>
+<td>0</td>
+<td>restapi.TC001_GET@1f13d6e</td></tr>
+<tr>
+<td title='restapi.TC002_GET.getsingleuser()'><b>getsingleuser</b><br>Test class: restapi.TC002_GET</td>
+<td></td>
+<td>0</td>
+<td>restapi.TC002_GET@7dc304</td></tr>
+<tr>
+<td title='restapi.TC0014_POST.login_unsuccess()'><b>login_unsuccess</b><br>Test class: restapi.TC0014_POST</td>
+<td></td>
+<td>0</td>
+<td>restapi.TC0014_POST@11f39f9</td></tr>
+<tr>
+<td title='restapi.TC0013_POST.loginsuccess()'><b>loginsuccess</b><br>Test class: restapi.TC0013_POST</td>
+<td></td>
+<td>0</td>
+<td>restapi.TC0013_POST@bbd20a</td></tr>
+<tr>
+<td title='restapi.TC0012_POST.registerunsuccess()'><b>registerunsuccess</b><br>Test class: restapi.TC0012_POST</td>
+<td></td>
+<td>0</td>
+<td>restapi.TC0012_POST@95a785</td></tr>
+<tr>
+<td title='restapi.TC0011_POST.registeruser()'><b>registeruser</b><br>Test class: restapi.TC0011_POST</td>
+<td></td>
+<td>0</td>
+<td>restapi.TC0011_POST@1d7a715</td></tr>
+<tr>
+<td title='restapi.TC006_GET.singlenotfound()'><b>singlenotfound</b><br>Test class: restapi.TC006_GET</td>
+<td></td>
+<td>0</td>
+<td>restapi.TC006_GET@16eabae</td></tr>
+<tr>
+<td title='restapi.TC005_GET.singleresource()'><b>singleresource</b><br>Test class: restapi.TC005_GET</td>
+<td></td>
+<td>0</td>
+<td>restapi.TC005_GET@503868</td></tr>
+<tr>
+<td title='restapi.TC009_PATCH.update_patch()'><b>update_patch</b><br>Test class: restapi.TC009_PATCH</td>
+<td></td>
+<td>0</td>
+<td>restapi.TC009_PATCH@1faf8f2</td></tr>
+<tr>
+<td title='restapi.TC008_PUT.update_put()'><b>update_put</b><br>Test class: restapi.TC008_PUT</td>
+<td></td>
+<td>0</td>
+<td>restapi.TC008_PUT@11cdd8a</td></tr>
+<tr>
+<td title='restapi.TC003_GET.usernotfound()'><b>usernotfound</b><br>Test class: restapi.TC003_GET</td>
+<td></td>
+<td>0</td>
+<td>restapi.TC003_GET@1bbf57e</td></tr>
+</table><p>
+</body>
+</html>

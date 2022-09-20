@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="14" passed="14">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="12616" started-at="2022-09-20T17:14:26 IST" finished-at="2022-09-20T17:14:39 IST">
+    <groups>
+      <group name="DELETE">
+        <method signature="TC0010_DELETE.delete_user()[pri:0, instance:restapi.TC0010_DELETE@729b1e]" name="delete_user" class="restapi.TC0010_DELETE"/>
+      </group> <!-- DELETE -->
+      <group name="POST">
+        <method signature="TC0012_POST.registerunsuccess()[pri:0, instance:restapi.TC0012_POST@95a785]" name="registerunsuccess" class="restapi.TC0012_POST"/>
+        <method signature="TC0013_POST.loginsuccess()[pri:0, instance:restapi.TC0013_POST@bbd20a]" name="loginsuccess" class="restapi.TC0013_POST"/>
+        <method signature="TC0014_POST.login_unsuccess()[pri:0, instance:restapi.TC0014_POST@11f39f9]" name="login_unsuccess" class="restapi.TC0014_POST"/>
+        <method signature="TC007_POST.createuser()[pri:0, instance:restapi.TC007_POST@aa12dd]" name="createuser" class="restapi.TC007_POST"/>
+      </group> <!-- POST -->
+      <group name="GET">
+        <method signature="TC0011_POST.registeruser()[pri:0, instance:restapi.TC0011_POST@1d7a715]" name="registeruser" class="restapi.TC0011_POST"/>
+        <method signature="TC001_GET.getlistuser()[pri:0, instance:restapi.TC001_GET@1f13d6e]" name="getlistuser" class="restapi.TC001_GET"/>
+        <method signature="TC003_GET.usernotfound()[pri:0, instance:restapi.TC003_GET@1bbf57e]" name="usernotfound" class="restapi.TC003_GET"/>
+        <method signature="TC005_GET.singleresource()[pri:0, instance:restapi.TC005_GET@503868]" name="singleresource" class="restapi.TC005_GET"/>
+        <method signature="TC006_GET.singlenotfound()[pri:0, instance:restapi.TC006_GET@16eabae]" name="singlenotfound" class="restapi.TC006_GET"/>
+      </group> <!-- GET -->
+      <group name="PATCH">
+        <method signature="TC009_PATCH.update_patch()[pri:0, instance:restapi.TC009_PATCH@1faf8f2]" name="update_patch" class="restapi.TC009_PATCH"/>
+      </group> <!-- PATCH -->
+      <group name="PUT">
+        <method signature="TC008_PUT.update_put()[pri:0, instance:restapi.TC008_PUT@11cdd8a]" name="update_put" class="restapi.TC008_PUT"/>
+      </group> <!-- PUT -->
+    </groups>
+    <test name="Default test" duration-ms="12616" started-at="2022-09-20T17:14:26 IST" finished-at="2022-09-20T17:14:39 IST">
+      <class name="restapi.TC007_POST">
+        <test-method status="PASS" signature="createuser()[pri:0, instance:restapi.TC007_POST@aa12dd]" name="createuser" duration-ms="4237" started-at="2022-09-20T17:14:26 IST" finished-at="2022-09-20T17:14:30 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createuser -->
+      </class> <!-- restapi.TC007_POST -->
+      <class name="restapi.TC0011_POST">
+        <test-method status="PASS" signature="registeruser()[pri:0, instance:restapi.TC0011_POST@1d7a715]" name="registeruser" duration-ms="843" started-at="2022-09-20T17:14:31 IST" finished-at="2022-09-20T17:14:31 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registeruser -->
+      </class> <!-- restapi.TC0011_POST -->
+      <class name="restapi.TC0014_POST">
+        <test-method status="PASS" signature="login_unsuccess()[pri:0, instance:restapi.TC0014_POST@11f39f9]" name="login_unsuccess" duration-ms="795" started-at="2022-09-20T17:14:32 IST" finished-at="2022-09-20T17:14:32 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login_unsuccess -->
+      </class> <!-- restapi.TC0014_POST -->
+      <class name="restapi.TC003_GET">
+        <test-method status="PASS" signature="usernotfound()[pri:0, instance:restapi.TC003_GET@1bbf57e]" name="usernotfound" duration-ms="422" started-at="2022-09-20T17:14:34 IST" finished-at="2022-09-20T17:14:34 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- usernotfound -->
+      </class> <!-- restapi.TC003_GET -->
+      <class name="restapi.TC001_GET">
+        <test-method status="PASS" signature="getlistuser()[pri:0, instance:restapi.TC001_GET@1f13d6e]" name="getlistuser" duration-ms="434" started-at="2022-09-20T17:14:34 IST" finished-at="2022-09-20T17:14:34 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getlistuser -->
+      </class> <!-- restapi.TC001_GET -->
+      <class name="restapi.TC008_PUT">
+        <test-method status="PASS" signature="update_put()[pri:0, instance:restapi.TC008_PUT@11cdd8a]" name="update_put" duration-ms="826" started-at="2022-09-20T17:14:34 IST" finished-at="2022-09-20T17:14:35 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- update_put -->
+      </class> <!-- restapi.TC008_PUT -->
+      <class name="restapi.TC004_GET">
+        <test-method status="PASS" signature="getlist()[pri:0, instance:restapi.TC004_GET@144fc21]" name="getlist" duration-ms="461" started-at="2022-09-20T17:14:30 IST" finished-at="2022-09-20T17:14:31 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getlist -->
+      </class> <!-- restapi.TC004_GET -->
+      <class name="restapi.TC009_PATCH">
+        <test-method status="PASS" signature="update_patch()[pri:0, instance:restapi.TC009_PATCH@1faf8f2]" name="update_patch" duration-ms="789" started-at="2022-09-20T17:14:33 IST" finished-at="2022-09-20T17:14:34 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- update_patch -->
+      </class> <!-- restapi.TC009_PATCH -->
+      <class name="restapi.TC006_GET">
+        <test-method status="PASS" signature="singlenotfound()[pri:0, instance:restapi.TC006_GET@16eabae]" name="singlenotfound" duration-ms="410" started-at="2022-09-20T17:14:32 IST" finished-at="2022-09-20T17:14:33 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- singlenotfound -->
+      </class> <!-- restapi.TC006_GET -->
+      <class name="restapi.TC002_GET">
+        <test-method status="PASS" signature="getsingleuser()[pri:2, instance:restapi.TC002_GET@7dc304]" name="getsingleuser" duration-ms="404" started-at="2022-09-20T17:14:35 IST" finished-at="2022-09-20T17:14:36 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getsingleuser -->
+      </class> <!-- restapi.TC002_GET -->
+      <class name="restapi.TC0010_DELETE">
+        <test-method status="PASS" signature="delete_user()[pri:0, instance:restapi.TC0010_DELETE@729b1e]" name="delete_user" duration-ms="803" started-at="2022-09-20T17:14:36 IST" finished-at="2022-09-20T17:14:36 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- delete_user -->
+      </class> <!-- restapi.TC0010_DELETE -->
+      <class name="restapi.TC0013_POST">
+        <test-method status="PASS" signature="loginsuccess()[pri:0, instance:restapi.TC0013_POST@bbd20a]" name="loginsuccess" duration-ms="775" started-at="2022-09-20T17:14:36 IST" finished-at="2022-09-20T17:14:37 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginsuccess -->
+      </class> <!-- restapi.TC0013_POST -->
+      <class name="restapi.TC0012_POST">
+        <test-method status="PASS" signature="registerunsuccess()[pri:0, instance:restapi.TC0012_POST@95a785]" name="registerunsuccess" duration-ms="877" started-at="2022-09-20T17:14:38 IST" finished-at="2022-09-20T17:14:39 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registerunsuccess -->
+      </class> <!-- restapi.TC0012_POST -->
+      <class name="restapi.TC005_GET">
+        <test-method status="PASS" signature="singleresource()[pri:0, instance:restapi.TC005_GET@503868]" name="singleresource" duration-ms="436" started-at="2022-09-20T17:14:37 IST" finished-at="2022-09-20T17:14:38 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- singleresource -->
+      </class> <!-- restapi.TC005_GET -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
